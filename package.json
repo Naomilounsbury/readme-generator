@@ -1,0 +1,25 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "ReadME generator",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naomilounsbury/readme-generator.git"
+  },
+  "keywords": [
+    "readME"
+  ],
+  "author": "Naomilounsbury",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naomilounsbury/readme-generator/issues"
+  },
+  "homepage": "https://github.com/Naomilounsbury/readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  }
+}
