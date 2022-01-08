@@ -14,16 +14,16 @@
   [Contributing](#contributing)
   [Questions](#questions)
   ## Description
-  'f
+  j
   ## License
   MIT
   ## Installation
   npm i
   ## Usage 
-  f
+  j
   ## Contributing
-  f
+  h
   ## Questions
-  Github: [naomilounsbury](github.com/naomilounsbury)
-  Email: h
+  Github: [jg](github.com/jg)
+  Email: j
   

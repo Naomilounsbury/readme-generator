@@ -4,7 +4,7 @@
 function renderLicenseBadge(license) {
     switch(license.license){
       case 'MIT': 
-      return `![License: MIT](https://img.shields.io/badge/license-${license}-yellow.svg)`
+      return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
      case 'Mozilla Public License':
       return `![License: MPL 2.0](https://img.shields.io/badge/license-${license}-brightgreen.svg)]`
      case 'GPL v3': 
