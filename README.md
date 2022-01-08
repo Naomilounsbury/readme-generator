@@ -1,9 +1,9 @@
-# Something
+# j
   None
   
 * [License](#license)
 
-  This is licensed under Mozilla Public License
+  This is licensed under MIT
 
 
   Table of Contents
@@ -14,16 +14,16 @@
   [Contributing](#contributing)
   [Questions](#questions)
   ## Description
-  Something for something.
+  'f
   ## License
-  Mozilla Public License
+  MIT
   ## Installation
   npm i
   ## Usage 
-  something else
+  f
   ## Contributing
-  contribute more
+  f
   ## Questions
-  Github: [Naomilounsbury](github.com/Naomilounsbury)
-  Email: naomilounsbury@hotmail.com
+  Github: [naomilounsbury](github.com/naomilounsbury)
+  Email: h
   
