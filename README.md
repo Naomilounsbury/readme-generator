@@ -1,9 +1,9 @@
-# jj
+# Something
   None
   
 * [License](#license)
 
-  This is licensed under APACHE 2.0
+  This is licensed under Mozilla Public License
 
 
   Table of Contents
@@ -14,16 +14,16 @@
   [Contributing](#contributing)
   [Questions](#questions)
   ## Description
-  jjj
+  Something for something.
   ## License
-  APACHE 2.0
+  Mozilla Public License
   ## Installation
-  j
+  npm i
   ## Usage 
-  j
+  something else
   ## Contributing
-  j
+  contribute more
   ## Questions
-  Github: [jj](github.com/jj)
-  Email: jj
+  Github: [Naomilounsbury](github.com/Naomilounsbury)
+  Email: naomilounsbury@hotmail.com
   
