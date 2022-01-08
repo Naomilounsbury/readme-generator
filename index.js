@@ -1,9 +1,10 @@
 //so I'm going to need inquirer so i do that first 
 const inquirer = require('inquirer');
 const fs = require('fs')
+const path = require('path')
 //because we want to use all the functions and so we want to store them in an object and then be able to access them later so need {}
 //if I want to do multiple exports with the same 
-const {generateMarkdown} = require('./utils/generate-markdown.js');
+const generateMarkdown = require('./utils/generate-markdown.js');
 
 // const { writeFile, copyFile } = require('./utils/generate-site');
 // array of questions for user
@@ -37,7 +38,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'What kind of license should your project have?',
-    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3', 'None'],
+    choices: ['MIT', 'APACHE 2.0', 'Mozilla Public License','GPL v3', 'BSD 3', 'None'],
   },
   {
     type: 'input',
@@ -81,12 +82,12 @@ fs.writeFile(filename, data, (err) => {
 // TODO: Create a function to initialize app
 function init() {
   inquirer.prompt(questions)
-    .then((answers) => {
-      console.log(answers)
+    .then((data) => {
+      console.log(data)
       //the first paramenter is readme because we pass in our filename as a string because write tofile will always be writing a readme I should
       //probably hardcode readme.md into wriotetofile
       //we want to use generate markdown to reformat answers into the string that we want to write to the file
-      writeToFile('README.md', generateMarkdown(answers))
+      writeToFile('README.md', generateMarkdown({...data}))
       //use the wrteto file function, answers will be one of my parameters, generatemarkdown will be another parameter
     })
 }
