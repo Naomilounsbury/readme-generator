@@ -1,5 +1,5 @@
-# j
-  None
+# h
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   
 * [License](#license)
 
@@ -14,16 +14,16 @@
   [Contributing](#contributing)
   [Questions](#questions)
   ## Description
-  j
+  h
   ## License
   MIT
   ## Installation
   npm i
   ## Usage 
-  j
-  ## Contributing
   h
+  ## Contributing
+  s
   ## Questions
-  Github: [jg](github.com/jg)
-  Email: j
+  Github: [Naomilounsbury](https://github.com/Naomilounsbury)
+  Email: n
   
