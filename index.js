@@ -33,6 +33,11 @@ const questions = [
     name: 'description',
     message: 'Please give a short description of your project',
   },
+  {
+    type: 'input',
+    name: 'screenshot',
+    message: 'Please enter the relative path of your screenshot',
+  },
   //I dont even know about licenses 
   {
     type: 'list',
